@@ -26,11 +26,11 @@ The problem is solved using:
 The program reads textual commands from input and returns textual responses:
 
 ### 📥 Input Commands
-- `add-station distance number-of-cars car-autonomy-1 ... car-autonomy-n`
-- `remove-station distance`
-- `add-car station-distance car-autonomy`
-- `scrap-car station-distance car-autonomy`
-- `plan-route start-distance end-distance`
+- `add-station : [distance , number-of-cars , car-autonomy-1 ... car-autonomy-n]
+- `remove-station: [distance]`
+- `add-car: [station-distance , car-autonomy]`
+- `scrap-car: [station-distance car-autonomy]`
+- `plan-route: [start-distance end-distance]`
 
 ### 📤 Expected Output
 - `added` / `not added`
